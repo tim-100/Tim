@@ -6,6 +6,6 @@ public class Test {
         Family tali = new Family("Talimae", 49);
         bog.infoBogd();
         tali.infoFamily();
-        System.out.println("Hi");
+        System.out.println("Hi tim");
     }
 }
