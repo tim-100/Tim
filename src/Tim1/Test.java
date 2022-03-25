@@ -5,7 +5,13 @@ public class Test {
         Bogd bog = new Bogd();
         Family tali = new Family("Talimae", 49);
         bog.infoBogd();
+        Info(bog);
         tali.infoFamily();
-        System.out.println("Hi tim");
+        InfoTali(bog);
+
     }
+    public static void Info(Semiy i){
+        i.kalinino();
+    }
+    public static void InfoTali(Semiy i){i.vmeste();}
 }
